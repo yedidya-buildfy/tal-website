@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="שיעורים - MANTRA STUDIO">
+    <title>שיעורים | MANTRA STUDIO</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../images/logo-clearbg.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-clearbg.svg" alt="mantra studio" style="height: 80px;">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">בית</a></li>
+                <li><a href="schedule.html" class="nav-link">מערכת שיעורים</a></li>
+                <li><a href="classes.html" class="nav-link">שיעורים</a></li>
+                <li><a href="about.html" class="nav-link">אודות</a></li>
+                <li><a href="gallery.html" class="nav-link">גלריה</a></li>
+            </ul>
+            <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="nav-cta">שיעור ניסיון ראשון</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="philosophy" style="margin-top: 80px; padding-top: 80px;">
+        <div class="container">
+            <h1 class="section-title">Our Classes</h1>
+            <div class="philosophy-content">
+                <p class="philosophy-text">
+                    כל שיעור מתוכנן בקפידה להעניק חוויה שלמה - פיזית, מנטלית ורגשית
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes -->
+    <section class="about-preview" style="background-color: var(--cream);">
+        <div class="container">
+            <!-- Yoga Vinyasa -->
+            <div class="about-grid" style="margin-bottom: 60px;">
+                <div class="about-image">
+                    <img src="../images/yoga_viniyasa.jpg" alt="Yoga Vinyasa" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Yoga Vinyasa</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">זרימה דינמית של תנועה ונשימה</p>
+                    <p class="about-text">
+                        שיעור דינמי ורהוט שבו התנועה והנשימה זורמות יחדיו. כל שאיפה ונשיפה מחוברת לתנוחה, יוצרות רצף מתמשך ומגע של תנועה מדיטטיבית המחזקת את הגוף ומרגיעה את הנפש.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Yoga Ashtanga -->
+            <div class="about-grid" style="margin-bottom: 60px; flex-direction: row-reverse;">
+                <div class="about-image">
+                    <img src="../images/yoga-ashtanga.jpg" alt="Yoga Ashtanga" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Yoga Ashtanga</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">רצף מסורתי לכוח ומיקוד</p>
+                    <p class="about-text">
+                        רצף קבוע ומאתגר המחבר בין נשימה לתנועה בסדר מוגדר. שיטה מסורתית שמפתחת כוח, גמישות ומיקוד נפשי דרך תרגול עקבי ומובנה.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Yoga Power -->
+            <div class="about-grid" style="margin-bottom: 60px;">
+                <div class="about-image">
+                    <img src="../images/764AE060-44A3-4BC5-B4B7-0563DE23E25D.JPG" alt="Yoga Power" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Yoga Power</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">אימון אינטנסיבי לחיזוק הגוף</p>
+                    <p class="about-text">
+                        אימון אינטנסיבי המשלב כוח, סיבולת וגמישות. שיעור אנרגטי שמאתגר את הגוף דרך תנוחות מורכבות ורצפים דינמיים, מושלם למי שמחפשת תרגול פיזי מאתגר.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Yin Yoga -->
+            <div class="about-grid" style="margin-bottom: 60px; flex-direction: row-reverse;">
+                <div class="about-image">
+                    <img src="../images/yin.jpg" alt="Yin Yoga" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Yin Yoga</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">מדיטציה בתנועה לשחרור מתחים</p>
+                    <p class="about-text">
+                        שיעור שקט ומדיטטיבי לשחרור מתחים עמוקים. מחזיקים תנוחות במשך זמן ממושך לעבודה על הרקמות והפאשיה, תוך רגיעה מלאה של מערכת העצבים והנפש.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Yoga Man & Woman -->
+            <div class="about-grid" style="margin-bottom: 60px;">
+                <div class="about-image">
+                    <img src="../images/Y-1.JPG" alt="Yoga Man & Woman" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Yoga Man & Woman</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">שיעור זוגי לחיבור משותף</p>
+                    <p class="about-text">
+                        שיעור זוגי המתאים לכל הרמות. חוויה משותפת המאפשרת לזוגות לתרגל יחד, לחזק את החיבור ביניהם ולחוות את היתרונות של יוגה בסביבה מזמינה ותומכת.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Abs & Body -->
+            <div class="about-grid" style="margin-bottom: 60px; flex-direction: row-reverse;">
+                <div class="about-image">
+                    <img src="../images/abs-body.jpg" alt="Abs & Body" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Abs & Body</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">חיזוק ליבה ועיצוב הגוף</p>
+                    <p class="about-text">
+                        אימון ממוקד לחיזוק הבטן ועיצוב הגוף. שילוב של תרגילי ליבה, חיזוק שרירים וקרדיו קל, המעניק תוצאות מרשימות תוך פיתוח כוח פנימי ויציבות.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Pilates Barre -->
+            <div class="about-grid" style="margin-bottom: 60px;">
+                <div class="about-image">
+                    <img src="../images/barre.jpg" alt="Pilates Barre" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Pilates Barre</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">פילאטיס בהשראת בלט לעיצוב וחיטוב</p>
+                    <p class="about-text">
+                        שילוב של פילאטיס ובלט לעיצוב וחיטוב. אימון בהשראת בלט המתמקד בשרירים קטנים, יוצר קו גוף ארוך ומחוטב תוך חיזוק הליבה והגמישות.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Flexibility -->
+            <div class="about-grid" style="margin-bottom: 60px; flex-direction: row-reverse;">
+                <div class="about-image">
+                    <img src="../images/flexibility.jpg" alt="Flexibility" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Flexibility</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">שיפור גמישות וטווחי תנועה</p>
+                    <p class="about-text">
+                        שיעור ייעודי לשיפור גמישות וטווחי תנועה. עבודה שיטתית על מתיחות עמוקות ומתקדמות, מתאים למי שרוצה להעמיק את היכולות הפיזיות ולמנוע פציעות.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Yoga Beginners -->
+            <div class="about-grid" style="margin-bottom: 60px;">
+                <div class="about-image">
+                    <img src="../images/yoga_beginners.jpg" alt="Yoga Beginners" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="about-content">
+                    <h3 class="section-title" style="font-size: 2rem; text-align: right;">Yoga Beginners</h3>
+                    <p class="about-text" style="font-weight: 500; margin-bottom: 10px;">כניסה מושלמת לעולם היוגה</p>
+                    <p class="about-text">
+                        שיעור מתאים למתחילות וכניסה ראשונה ליוגה. למידה בסיסית של עקרונות היוגה, תנוחות יסוד וטכניקות נשימה בקצב נוח ומזמין, עם הסברים מפורטים וליווי צמוד.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="lead-form-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 class="section-title">לא בטוחה איזה שיעור מתאים לך?</h2>
+                <p class="section-subtitle">צרי איתנו קשר ונשמח לעזור לך למצוא את השיעור המושלם</p>
+                <a href="https://wa.me/972559808109" target="_blank" rel="noopener" class="btn-primary">צרי קשר</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">MANTRA STUDIO</h3>
+                    <p class="footer-tagline">סטודיו יוגה | פילאטיס | אימוני עיצוב</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">צור קשר</h4>
+                    <p><a href="https://www.google.com/maps/place/%D7%90%D7%91%D7%90+%D7%90%D7%97%D7%99%D7%9E%D7%90%D7%99%D7%A8+22,+%D7%A4%D7%AA%D7%97+%D7%AA%D7%A7%D7%95%D7%95%D7%94,+4937074,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C%E2%80%AD/@32.0725988,34.8840462,17z/data=!3m1!4b1!4m6!3m5!1s0x151d35e702dc4b21:0x757ad991afb43f05!8m2!3d32.0725988!4d34.8818575!16s%2Fg%2F12hnz4yqh?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">רח׳ אבא אחימאיר 22, פתח תקווה</a></p>
+                    <p>טלפון: 055-980-8109</p>
+                    <p><a href="https://instagram.com/mantra_motion__studio" target="_blank" rel="noopener">@mantra_motion__studio</a></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="schedule.html">מערכת שיעורים</a></li>
+                        <li><a href="classes.html">שיעורים</a></li>
+                        <li><a href="about.html">אודות</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 MANTRA STUDIO. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

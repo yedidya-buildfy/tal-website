@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mantra studio - סטודיו יוגה ופילאטיס בוטיק בפתח תקווה">
+    <title>mantra studio | יוגה ופילאטיס בפתח תקווה</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo-clearbg.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/logo-clearbg.svg" alt="mantra studio" style="height: 80px;">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">בית</a></li>
+                <li><a href="pages/schedule.html" class="nav-link">מערכת שיעורים</a></li>
+                <li><a href="pages/classes.html" class="nav-link">שיעורים</a></li>
+                <li><a href="pages/about.html" class="nav-link">אודות</a></li>
+                <li><a href="pages/gallery.html" class="nav-link">גלריה</a></li>
+            </ul>
+            <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="nav-cta">שיעור ניסיון ראשון</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Parallax -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-base" id="heroBgBase">
+            <img src="images/Y-1.JPG" alt="Mantra Studio" class="hero-bg-image">
+        </div>
+        <div class="hero-content">
+            <div class="hero-top">
+                <img src="images/logo-clearbg.svg" alt="mantra studio" class="hero-logo">
+                <p class="hero-subtitle">להשאיר את הרעש בחוץ. לנשום. לנוע. להיות נוכחת.</p>
+            </div>
+            <div class="hero-bottom">
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="hero-cta">הצטרפי לשיעור הראשון</a>
+
+                <div class="hero-buttons">
+                    <a href="https://wa.me/972559808109" target="_blank" rel="noopener" class="hero-btn contact-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                        </svg>
+                        <span>Contact</span>
+                    </a>
+
+                    <a href="https://chat.whatsapp.com/LqmnQ2ZRJ76KrUFlMHCDkb" target="_blank" rel="noopener" class="hero-btn community-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                        </svg>
+                        <span>Community</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/mantra_motion__studio?igsh=N2Mwdmdqa2xuOW9l&utm_source=qr" target="_blank" rel="noopener" class="hero-btn instagram-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/>
+                        </svg>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+
+                <p class="hero-address"><a href="https://www.google.com/maps/place/%D7%90%D7%91%D7%90+%D7%90%D7%97%D7%99%D7%9E%D7%90%D7%99%D7%A8+22,+%D7%A4%D7%AA%D7%97+%D7%AA%D7%A7%D7%95%D7%95%D7%94,+4937074,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C%E2%80%AD/@32.0725988,34.8840462,17z/data=!3m1!4b1!4m6!3m5!1s0x151d35e702dc4b21:0x757ad991afb43f05!8m2!3d32.0725988!4d34.8818575!16s%2Fg%2F12hnz4yqh?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener" class="hero-address-link">אבא אחימאיר 22, פתח תקווה</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Classes Section -->
+    <section class="classes-section">
+        <div class="container">
+            <h2 class="classes-title">Our Classes</h2>
+            <div class="classes-grid">
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/yoga_viniyasa.jpg" alt="Yoga Vinyasa">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Yoga Vinyasa</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/yoga-ashtanga.jpg" alt="Yoga Ashtanga">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Yoga Ashtanga</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/764AE060-44A3-4BC5-B4B7-0563DE23E25D.JPG" alt="Yoga Power">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Yoga Power</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/yin.jpg" alt="Yin Yoga">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Yin Yoga</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/Y-1.JPG" alt="Yoga Man & Woman">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Yoga Man & Woman</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/abs-body.jpg" alt="Abs & Body">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Abs & Body</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/barre.jpg" alt="Pilates Barre">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Pilates Barre</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/flexibility.jpg" alt="Flexibility">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Flexibility</h3>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="class-card-item">
+                    <div class="class-card-image">
+                        <img src="images/yoga_beginners.jpg" alt="Yoga Beginners">
+                        <div class="class-card-overlay">
+                            <h3 class="class-card-name">Yoga Beginners</h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">מי אנחנו – Mantra Studio</h2>
+            <div class="about-content">
+                <p class="about-intro">
+                    <strong>מנטרה</strong> הוא סטודיו בוטיק ליוגה ותנועה שנבנה מתוך רצון ליצור בית אמיתי לנשימה, חיבור וגדילה אישית.
+                </p>
+                <p class="about-text">
+                    אצלנו כל תרגול מתקיים בקבוצה אינטימית של עד שבע מתאמנות, כדי לאפשר יחס אישי, הקשבה אמיתית וליווי שמרגישים בכל שלב.
+                </p>
+                <p class="about-text">
+                    הסטודיו מציע מגוון שיעורים המתאימים לכל רמה:<br>
+                    ויניאסה, אשטנגה, יין יוגה, פילאטיס-בר ובטן-ישבן וכל שיעור נבנה מתוך מחשבה על חיזוק הגוף, איזון הנפש ותחושת בית.
+                </p>
+                <p class="about-closing">
+                    <strong>סטודיו מנטרה</strong> הוא מרחב שמזמין אותך לעצור לרגע, לנשום, ולפגוש את עצמך מחדש על המזרן ומחוץ לו.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="lead-form-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 class="section-title">התחילי את המסע שלך</h2>
+                <p class="section-subtitle">צרי איתנו קשר ונחזור אלייך בהקדם</p>
+                <a href="https://wa.me/972559808109" target="_blank" rel="noopener" class="btn-primary contact-whatsapp-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                    </svg>
+                    <span>צרי קשר</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">mantra studio</h3>
+                    <p class="footer-tagline">סטודיו יוגה | פילאטיס | אימוני עיצוב</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">צור קשר</h4>
+                    <p><a href="https://www.google.com/maps/place/%D7%90%D7%91%D7%90+%D7%90%D7%97%D7%99%D7%9E%D7%90%D7%99%D7%A8+22,+%D7%A4%D7%AA%D7%97+%D7%AA%D7%A7%D7%95%D7%95%D7%94,+4937074,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C%E2%80%AD/@32.0725988,34.8840462,17z/data=!3m1!4b1!4m6!3m5!1s0x151d35e702dc4b21:0x757ad991afb43f05!8m2!3d32.0725988!4d34.8818575!16s%2Fg%2F12hnz4yqh?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">רח׳ אבא אחימאיר 22, פתח תקווה</a></p>
+                    <p>טלפון: 055-980-8109</p>
+                    <p><a href="https://instagram.com/mantra_motion__studio" target="_blank" rel="noopener">@mantra_motion__studio</a></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/schedule.html">מערכת שיעורים</a></li>
+                        <li><a href="pages/classes.html">שיעורים</a></li>
+                        <li><a href="pages/about.html">אודות</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 mantra studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

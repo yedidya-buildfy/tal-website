@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="גלריה - mantra studio">
+    <title>גלריה | mantra studio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../images/logo-clearbg.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 4px;
+            aspect-ratio: 4/5;
+            cursor: pointer;
+            transition: var(--transition-fast);
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(58, 58, 58, 0.15);
+        }
+
+        .gallery-image {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--soft-sand), var(--warm-greige));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-clearbg.svg" alt="mantra studio" style="height: 80px;">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">בית</a></li>
+                <li><a href="schedule.html" class="nav-link">מערכת שיעורים</a></li>
+                <li><a href="classes.html" class="nav-link">שיעורים</a></li>
+                <li><a href="about.html" class="nav-link">אודות</a></li>
+                <li><a href="gallery.html" class="nav-link">גלריה</a></li>
+            </ul>
+            <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="nav-cta">שיעור ניסיון ראשון</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="philosophy" style="margin-top: 80px; padding-top: 80px;">
+        <div class="container">
+            <h1 class="section-title">הגלריה שלנו</h1>
+            <div class="philosophy-content">
+                <p class="philosophy-text">
+                    הצצה לעולם של mantra studio
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="schedule" style="background-color: var(--cream); padding: 60px 0;">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת סטודיו 1</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת סטודיו 2</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת סטודיו 3</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת שיעור 1</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת שיעור 2</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת שיעור 3</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת מנחה 1</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">תמונת מנחה 2</div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-image">
+                        <div class="placeholder-text">פרטי סטודיו</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="lead-form-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 class="section-title">בואי לחוות את זה בעצמך</h2>
+                <p class="section-subtitle">השיעור הראשון עלינו</p>
+                <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="btn-primary">לשיעור ניסיון ראשון</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">mantra studio</h3>
+                    <p class="footer-tagline">סטודיו יוגה | פילאטיס | אימוני עיצוב</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">צור קשר</h4>
+                    <p><a href="https://www.google.com/maps/place/%D7%90%D7%91%D7%90+%D7%90%D7%97%D7%99%D7%9E%D7%90%D7%99%D7%A8+22,+%D7%A4%D7%AA%D7%97+%D7%AA%D7%A7%D7%95%D7%95%D7%94,+4937074,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C%E2%80%AD/@32.0725988,34.8840462,17z/data=!3m1!4b1!4m6!3m5!1s0x151d35e702dc4b21:0x757ad991afb43f05!8m2!3d32.0725988!4d34.8818575!16s%2Fg%2F12hnz4yqh?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">רח׳ אבא אחימאיר 22, פתח תקווה</a></p>
+                    <p>טלפון: 055-980-8109</p>
+                    <p><a href="https://instagram.com/mantra_motion__studio" target="_blank" rel="noopener">@mantra_motion__studio</a></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="schedule.html">מערכת שיעורים</a></li>
+                        <li><a href="classes.html">שיעורים</a></li>
+                        <li><a href="about.html">אודות</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 mantra studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

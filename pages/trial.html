@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="שיעור ניסיון ראשון - mantra studio">
+    <title>שיעור ניסיון | mantra studio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../images/logo-clearbg.svg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="nav-logo">
+                <img src="../images/logo-clearbg.svg" alt="mantra studio" style="height: 80px;">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="../index.html" class="nav-link">בית</a></li>
+                <li><a href="schedule.html" class="nav-link">מערכת שיעורים</a></li>
+                <li><a href="classes.html" class="nav-link">שיעורים</a></li>
+                <li><a href="about.html" class="nav-link">אודות</a></li>
+                <li><a href="gallery.html" class="nav-link">גלריה</a></li>
+            </ul>
+            <a href="https://tinyurl.com/4753u2hs" target="_blank" rel="noopener" class="nav-cta">שיעור ניסיון ראשון</a>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="philosophy" style="margin-top: 80px; padding-top: 80px;">
+        <div class="container">
+            <h1 class="section-title">שיעור ניסיון ראשון</h1>
+            <div class="philosophy-content">
+                <blockquote class="philosophy-quote">
+                    "כל מסע מתחיל בצעד אחד"
+                </blockquote>
+                <p class="philosophy-text">
+                    בואי לנסות, להרגיש, ולהחליט בעצמך
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- What to Expect -->
+    <section class="about-preview" style="background-color: var(--cream);">
+        <div class="container">
+            <h2 class="section-title">מה כולל שיעור הניסיון?</h2>
+
+            <div class="schedule-grid" style="margin-top: 3rem;">
+                <div class="schedule-day">
+                    <h3 class="day-title">היכרות אישית</h3>
+                    <p style="text-align: center; color: var(--deep-taupe); line-height: 1.8;">
+                        נכיר אותך, נבין את הצרכים והמטרות שלך, ונמליץ על השיעורים המתאימים
+                    </p>
+                </div>
+                <div class="schedule-day">
+                    <h3 class="day-title">שיעור מלא</h3>
+                    <p style="text-align: center; color: var(--deep-taupe); line-height: 1.8;">
+                        תשתתפי בשיעור מלא לבחירתך - יוגה או פילאטיס, בליווי צמוד של המנחה
+                    </p>
+                </div>
+                <div class="schedule-day">
+                    <h3 class="day-title">ללא התחייבות</h3>
+                    <p style="text-align: center; color: var(--deep-taupe); line-height: 1.8;">
+                        השיעור הראשון עלינו, ללא כל התחייבות או לחץ להצטרף
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="lead-form-section">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2 class="section-title">הרשמה לשיעור ניסיון</h2>
+                <p class="section-subtitle">מלאי את הפרטים ונחזור אלייך לתיאום</p>
+
+                <!-- Arbox Integration Notice -->
+                <div class="schedule-notice" style="margin-bottom: 2rem;">
+                    <p>הטופס משולב עם מערכת Arbox לניהול הרשמות</p>
+                </div>
+
+                <form class="lead-form" id="trialForm">
+                    <div class="form-group">
+                        <label for="fullName">שם מלא *</label>
+                        <input type="text" id="fullName" name="fullName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">טלפון *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">אימייל *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="classType">סוג שיעור מועדף</label>
+                        <select id="classType" name="classType" style="width: 100%; padding: 0.75rem; border: 1px solid var(--warm-greige); border-radius: 2px; font-family: var(--font-body); font-size: 1rem; background-color: var(--cream); color: var(--warm-charcoal);">
+                            <option value="">בחרי סוג שיעור</option>
+                            <option value="vinyasa">Vinyasa Flow</option>
+                            <option value="hatha">Hatha Yoga</option>
+                            <option value="yin">Yin Yoga</option>
+                            <option value="pilates-mat">Pilates Mat</option>
+                            <option value="pilates-reformer">Pilates Reformer</option>
+                            <option value="not-sure">לא בטוחה - אשמח לייעוץ</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">רמת ניסיון</label>
+                        <select id="experience" name="experience" style="width: 100%; padding: 0.75rem; border: 1px solid var(--warm-greige); border-radius: 2px; font-family: var(--font-body); font-size: 1rem; background-color: var(--cream); color: var(--warm-charcoal);">
+                            <option value="beginner">מתחילה - ללא ניסיון קודם</option>
+                            <option value="some">קצת ניסיון</option>
+                            <option value="intermediate">בינוני - מתרגלת באופן קבוע</option>
+                            <option value="advanced">מתקדם</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">הערות או שאלות (אופציונלי)</label>
+                        <textarea id="message" name="message" rows="4" placeholder="פציעות, מגבלות פיזיות, או כל דבר אחר שחשוב שנדע..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">שלחי הרשמה</button>
+                </form>
+
+                <div class="form-success" id="formSuccess" style="display: none;">
+                    <h3 style="font-family: var(--font-heading); margin-bottom: 1rem;">תודה על ההרשמה!</h3>
+                    <p>קיבלנו את הפרטים שלך ונחזור אלייך בהקדם לתיאום השיעור.</p>
+                    <p style="margin-top: 1rem;">נשמח לראותך בקרוב!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="about-preview" style="background-color: var(--soft-sand);">
+        <div class="container">
+            <h2 class="section-title">שאלות נפוצות</h2>
+
+            <div class="about-content" style="max-width: 800px; margin: 3rem auto 0;">
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">מה להביא לשיעור?</h4>
+                    <p class="about-text">
+                        בגדי התעמלות נוחים, בקבוק מים, ומגבת קטנה. מזרנים וציוד נוסף מסופקים על ידינו.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">האם צריך ניסיון קודם?</h4>
+                    <p class="about-text">
+                        בכלל לא! Our Classes מתאימים לכל הרמות, והמנחות יספקו התאמות אישיות לפי הצורך.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">כמה זמן לפני השיעור להגיע?</h4>
+                    <p class="about-text">
+                        מומלץ להגיע 10-15 דקות לפני תחילת השיעור כדי להכיר את המקום ולהתארגן.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="font-family: var(--font-heading); margin-bottom: 0.5rem;">האם יש חנייה?</h4>
+                    <p class="about-text">
+                        כן, יש חניה בחינם ברחוב ובסביבה הקרובה לסטודיו.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-title">mantra studio</h3>
+                    <p class="footer-tagline">סטודיו יוגה | פילאטיס | אימוני עיצוב</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">צור קשר</h4>
+                    <p><a href="https://www.google.com/maps/place/%D7%90%D7%91%D7%90+%D7%90%D7%97%D7%99%D7%9E%D7%90%D7%99%D7%A8+22,+%D7%A4%D7%AA%D7%97+%D7%AA%D7%A7%D7%95%D7%95%D7%94,+4937074,+%D7%99%D7%A9%D7%A8%D7%90%D7%9C%E2%80%AD/@32.0725988,34.8840462,17z/data=!3m1!4b1!4m6!3m5!1s0x151d35e702dc4b21:0x757ad991afb43f05!8m2!3d32.0725988!4d34.8818575!16s%2Fg%2F12hnz4yqh?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">רח׳ אבא אחימאיר 22, פתח תקווה</a></p>
+                    <p>טלפון: 055-980-8109</p>
+                    <p><a href="https://instagram.com/mantra_motion__studio" target="_blank" rel="noopener">@mantra_motion__studio</a></p>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">קישורים</h4>
+                    <ul class="footer-links">
+                        <li><a href="schedule.html">מערכת שיעורים</a></li>
+                        <li><a href="classes.html">שיעורים</a></li>
+                        <li><a href="about.html">אודות</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 mantra studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
