@@ -841,6 +841,13 @@ p {
     border: 2px solid var(--warm-charcoal);
 }
 
+.about-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
 .about-image img {
     width: 100%;
     height: 100%;
